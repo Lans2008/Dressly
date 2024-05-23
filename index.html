@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dressly</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" href="img/Subtract.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="flex bg-white fixed w-full py-4 justify-between items-center border-b px-16 z-10 max-[768px]:px-10 max-[576px]:px-5 max-[576px]:justify-between">
+      <div class="logo flex">
+        <img class="w-full h-auto" src="img/Subtract.png" alt="Logo" />
+        <h1 class="font-[Lura] font-semibold text-xl ml-2 max-[576px]:font-medium">Dressly</h1>
+      </div>
+      <nav class="max-[576px]:hidden">
+        <ul>
+          <li class="inline-block mx-4 font-[poppins] font-medium"><a href="#">Shop</a></li>
+          <li class="inline-block mx-4 font-[poppins] font-medium"><a href="#">New Arrivals</a></li>
+          <li class="inline-block mx-4 font-[poppins] font-medium"><a href="#">Sale</a></li>
+          <li class="inline-block mx-4 font-[poppins] font-medium"><a href="#">Blog</a></li>
+        </ul>
+      </nav>
+      <div class="icon flex">
+        <a href="#"><img class="mx-2 w-[55%] max-[576px]:hidden" src="img/Haruki Icons.png" alt="Search" /></a>
+        <a href="#"><img class="mx-2 w-[55%]" src="img/Haruki Icons (1).png" alt="Bag" /></a>
+        <a href="#"><img class="mx-2 w-[55%] max-[576px]:hidden" src="img/Haruki Icons (2).png" alt="Profile" /></a>
+      </div>
+    </header>
+    <main>
+      <section id="hero" class="w-full flex flex-wrap p-16 pt-32 max-[768px]:px-10 max-[768px]:pt-28 max-[576px]:px-5 max-[576px]:pt-20 max-[576px]:flex-col-reverse max-[576px]:pb-8">
+        <article class="w-1/2 flex flex-col justify-center max-[576px]:w-[100%] max-[576px]:pt-10">
+          <h1 class="w-[90%] font-[lora] font-semibold text-5xl mb-5 max-[768px]:text-3xl max-[768px]:mb-3 max-[576px]:w-full">Discover the Latest Fashion Trends</h1>
+          <p class="font-[ubuntu] mb-10 max-[768px]:text-sm max-[768px]:mb-5">
+            From stylish dresses to trendy tops and must-have accessories, we have everything you need to stay on top of the latest fashion trends. Our expertly curated collection features the hottest styles from top designers, so you can
+            always find the perfect look for any occasion. Shop now and discover your new favorite fashion pieces.
+          </p>
+          <button class="bg-[#E09370] font-[ubuntu] rounded-md py-2 w-1/2 font-bold max-[576px]:w-full">Shop Now</button>
+        </article>
+        <article class="w-1/2 flex justify-end items-center max-[768px]:justify-center max-[576px]:w-full">
+          <img class="w-[80%] max-[576px]:w-full" src="img/img-hero.png" alt="" />
+        </article>
+      </section>
+      <article id="brands" class="flex py-20 px-16 w-full justify-evenly max-[768px]:p-10 max-[576px]:p-5 max-[576px]:flex-wrap">
+        <img class="max-[768px]:w-[15%] max-[576px]:w-1/2" src="img/Berluti-Logo.wine.png" alt="Berluti" />
+        <img class="max-[768px]:w-[15%] max-[576px]:w-1/2" src="img/Gucci-Logo.wine.png" alt="Gucci" />
+        <img class="max-[768px]:w-[15%] max-[576px]:w-1/2" src="img/Jimmy_Choo_Ltd-Logo.wine.png" alt="Jimmy Choo" />
+        <img class="max-[768px]:w-[15%] max-[576px]:w-1/2" src="img/Burberry-Logo.wine.png" alt="Bur Berry" />
+        <img class="max-[768px]:w-[15%] max-[576px]:w-1/2" src="img/Balenciaga-Logo.wine.png" alt="Balenciaga" />
+        <img class="max-[768px]:w-[15%] max-[576px]:w-1/2" src="img/Louis_Vuitton-Logo.wine.png" alt="Louis Vuitton" />
+      </article>
+      <section id="selections" class="px-16 py-20 max-[768px]:p-10 max-[576px]:p-5">
+        <h1 class="font-[lora] text-4xl font-semibold max-[768px]:text-3xl max-[576px]:text-xl">Top Selections</h1>
+        <article class="flex justify-between gap-5 py-10 max-[576px]:py-5 max-[576px]:flex-wrap max-[576px]:gap-3">
+          <figure class="relative flex flex-col items-center ">
+            <img class="brightness-75" src="img/selection-1.png" alt="" />
+            <figcaption class="absolute bottom-10 text-white font-[lora] font-medium text-xl max-[768px]:text-lg max-[576px]:text-base">Elegant Eid Attire</figcaption>
+          </figure>
+          <figure class="relative flex flex-col items-center">
+            <img class="brightness-75" src="img/selection-3.png" alt="" />
+            <figcaption class="absolute bottom-10 text-white font-[lora] font-medium text-xl max-[768px]:text-lg max-[576px]:text-base">Accessory Essentials</figcaption>
+          </figure>
+          <figure class="relative flex flex-col items-center">
+            <img class="brightness-75" src="img/selection-2.png" alt="" />
+            <figcaption class="absolute bottom-10 text-white font-[lora] font-medium text-xl max-[768px]:text-lg max-[576px]:text-base">Everyday Shoes</figcaption>
+          </figure>
+        </article>
+      </section>
+      <section id="bestsellers" class="w-full p-16 max-[768px]:p-10 max-[576px]:p-5">
+        <div class="header flex justify-between mb-16 max-[768px]:mb-10 max-[576px]:mb-5 ">
+          <h1 class="font-[lora] text-4xl font-semibold max-[768px]:text-3xl max-[576px]:text-xl">Bestsellers</h1>
+          <button class="bg-[#E09370] rounded-md px-7 font-semibold max-[576px]:bg-transparent max-[576px]:text-[#E09370] max-[576px]:px-0">See All</button>
+        </div>
+        <article class="flex justify-between gap-2 max-[576px]:overflow-scroll pb-5">
+          <div class="card border rounded-lg shadow-md max-[576px]:w-[50%] max-[576px]:flex-shrink-0 p-4 max-[768px]:p-2">
+            <div class="card-img">
+              <img src="img/card1.png" alt="" />
+            </div>
+            <div class="card-body">
+              <h2 class="font-[ubuntu] font-medium text-xl py-4 max-[768px]:text-lg max-[768px]:py-2 max-[576px]:text-sm">Sneaker</h2>
+              <div class="card-rating flex mb-2 items-center">
+                <img class="mr-1 max-[576px]:w-[15%]" src="img/star.png" alt="Star" />
+                <p class="max-[576px]:text-sm">4.5<span class="px-2 text-[#BDBDBD]">(325)</span></p>
+              </div>
+              <p class="font-[ubuntu] max-[768px]:text-xs max-[576px]:text-[0.6rem]">Rp .965.500 <span class="text-red-600 max-[768px]:ml-2">Rp.1.097.500</span></p>
+            </div>
+          </div>
+          <div class="card border rounded-md shadow-md max-[576px]:w-[50%] max-[576px]:flex-shrink-0 p-4 max-[768px]:p-2">
+            <div class="card-img">
+              <img class="mr-1" src="img/card2.png" alt="" />
+            </div>
+            <div class="card-body">
+              <h2 class="font-[ubuntu] font-medium text-xl py-4 max-[768px]:text-lg max-[768px]:py-2 max-[576px]:text-sm">Women's Robes</h2>
+              <div class="card-rating flex mb-2 items-center">
+                <img class="mr-1 max-[576px]:w-[15%]" src="img/star.png" alt="Star" />
+                <p class="max-[576px]:text-sm">4.5<span class="px-2 text-[#BDBDBD]">(325)</span></p>
+              </div>
+              <p class="font-[ubuntu] max-[768px]:text-xs max-[576px]:text-[0.6rem]">Rp .755.000</p>
+            </div>
+          </div>
+          <div class="card border rounded-md shadow-md max-[576px]:w-[50%] max-[576px]:flex-shrink-0 p-4 max-[768px]:p-2">
+            <div class="card-img">
+              <img src="img/card3.png" alt="" />
+            </div>
+            <div class="card-body">
+              <h2 class="font-[ubuntu] font-medium text-xl py-4 max-[768px]:text-lg max-[768px]:py-2 max-[576px]:text-sm">Bag</h2>
+              <div class="card-rating flex mb-2 items-center">
+                <img class="mr-1 max-[576px]:w-[15%]" src="img/star.png" alt="Star" />
+                <p class="max-[576px]:text-sm">4.5<span class="px-2 text-[#BDBDBD]">(325)</span></p>
+              </div>
+              <p class="font-[ubuntu] max-[768px]:text-xs max-[576px]:text-[0.6rem]">Rp. 920.500 <span class="text-red-600 max-[768px]:ml-2">Rp. 1.000.500</span></p>
+            </div>
+          </div>
+          <div class="card border rounded-md shadow-md max-[576px]:w-[50%] max-[576px]:flex-shrink-0 p-4 max-[768px]:p-2">
+            <div class="card-img">
+              <img src="img/card4.png" alt="" />
+            </div>
+            <div class="card-body">
+              <h2 class="font-[ubuntu] font-medium text-xl py-4 max-[768px]:text-lg max-[768px]:py-2 max-[576px]:text-sm">Men's Robes</h2>
+              <div class="card-rating flex mb-2 items-center">
+                <img class="max-[576px]:w-[15%]" src="img/star.png" alt="Star" />
+                <p class="max-[576px]:text-sm">4.5<span class="px-2 text-[#BDBDBD]">(325)</span></p>
+              </div>
+              <p class="font-[ubuntu] max-[768px]:text-xs max-[576px]:text-[0.6rem]">Rp. 680.000</p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="order" class="px-16 my-5 max-[768px]:px-10 max-[576px]:p-5 max-[576px]:my-0">
+        <article class="bg-[#F5CCAB] w-full py-20 rounded-2xl flex flex-col justify-center items-center max-[576px]:py-16">
+          <h1 class="text-5xl font-[lora] font-semibold mb-10 max-[768px]:text-4xl max-[576px]:text-xl">The Easy Way to Order</h1>
+          <img class="max-[576px]:w-[90%]" src="img/Journey.png" alt="Journey" />
+        </article>
+      </section>
+      <section id="newsletter" class="w-full p-16 flex flex-col justify-center items-center max-[768px]:px-10 max-[576px]:p-5 max-[576px]:items-start">
+        <h1 class="font-[lora] text-5xl font-semibold mb-10 max-[768px]:text-4xl max-[576px]:text-[1.3rem] max-[576px]:mb-4 max-[576px]:font-bold">Subscribe Our Newsletter</h1>
+        <form class="search flex w-full justify-center max-[576px]:justify-between">
+          <input type="search" placeholder="Type your mail" class="border mr-5 w-3/4 rounded-md px-3 max-[576px]:mr-2 max-[576px]:w-full max-[576px]:py-1">
+          <button type="submit" class="bg-[#E09370] p-2 rounded-lg max-[576px]:p-3"><img src="img/send.png" alt="Send"></button>
+        </form>
+      </section>
+    </main>
+    <footer class="w-full p-16 flex justify-between items-start max-[768px]:px-10 max-[576px]:flex-wrap max-[576px]:p-5">
+      <section class="footer-header w-1/3 max-[768px]:pr-5 max-[768px]:w-[30%] max-[576px]:w-full max-[576px]:mb-5 max-[576px]:pr-0">
+        <div class="logo flex mb-3">
+          <img class="mr-3" src="img/Subtract.png" alt="">
+          <h1 class="font-[lora] text-xl font-semibold">Dressly</h1>
+        </div>
+        <p class="font-[ubuntu] w-2/3 max-[768px]:text-sm max-[768px]:w-full max-[576px]:text-xs">We are an online fashion store that provides a variety of the latest and trendy fashion products for men and women. We always try to provide our customers with a pleasant and easy shopping experience.</p>
+      </section>
+      <section class="footer-link w-1/3 flex justify-between max-[768px]:w-[40%] max-[576px]:w-full max-[576px]:flex-wrap">
+        <article class="footer-product w-1/2 max-[768px]:mr-3 max-[576px]:w-full max-[576px]:mb-5">
+          <h1 class="font-[ubuntu] font-medium text-xl mb-2 max-[768px]:text-base">Product Category</h1>
+          <ul>
+            <li class="max-[768px]:text-sm max-[576px]:text-xs max-[576px]:mb-2"><a href="#">Women's clothing</a></li>
+            <li class="max-[768px]:text-sm max-[576px]:text-xs max-[576px]:mb-2"><a href="#">Menswear</a></li>
+            <li class="max-[768px]:text-sm max-[576px]:text-xs max-[576px]:mb-2"><a href="#">Accessories</a></li>
+            <li class="max-[768px]:text-sm max-[576px]:text-xs max-[576px]:mb-2"><a href="#">Shoes</a></li>
+          </ul>
+        </article>
+        <article class="footer-company w-1/2 max-[576px]:w-full">
+          <h1 class="font-[ubuntu] font-medium text-xl mb-2 max-[768px]:text-base">Company</h1>
+          <ul>
+            <li class="max-[768px]:text-sm max-[576px]:text-xs max-[576px]:mb-2"><a href="#">About </a></li>
+            <li class="max-[768px]:text-sm max-[576px]:text-xs max-[576px]:mb-2"><a href="#">Contact</a></li>
+            <li class="max-[768px]:text-sm max-[576px]:text-xs max-[576px]:mb-2"><a href="#">Privacy Policy</a></li>
+            <li class="max-[768px]:text-sm max-[576px]:text-xs max-[576px]:mb-2"><a href="#">Terms of Service</a></li>
+          </ul>
+        </article>
+      </section> 
+      <section class="footer-download w-1/3 max-[768px]:w-[30%] max-[576px]:w-full max-[576px]:mt-2">
+        <h1 class="font-[ubuntu] font-medium mb-3 text-xl max-[768px]:text-base">Download Our App</h1>
+        <div class="footer-img flex gap-3">
+          <a href="#" class="w-1/2"><img class="w-full" src="img/apple.png" alt="Apple Store"></a>
+          <a href="#" class="w-1/2"><img class="w-full" src="img/playstore.png" alt="Play Store"></a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
